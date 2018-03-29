@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "DONOTSHOWTITLE",
+    "description": "一个隐藏知乎问题标题的插件",
+    "version": "1.0.0",
+    "permissions": [
+        "https://secure.flickr.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.zhihu.com/question/*", "http://www.zhihu.com/question/*"],
+            "css": [
+                "custom.css"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
