@@ -1,3 +1,15 @@
-.QuestionHeader-content {
+.QuestionHeader-title {
+    display: none !important;
+}
+
+.Question-sideColumn {
+    display: none !important;
+}
+
+title {
+    display: none !important;
+}
+
+.GlobalSideBar {
     display: none !important;
 }
