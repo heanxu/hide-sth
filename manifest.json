@@ -8,7 +8,7 @@
     ],
     "content_scripts": [
         {
-            "matches": ["https://www.zhihu.com/question/*", "http://www.zhihu.com/question/*", "https://www.zhihu.com/*"],
+            "matches": ["https://www.zhihu.com/question/*", "http://www.zhihu.com/question/*", "https://www.zhihu.com/*", "https://www.v2ex.com/*"],
             "css": [
                 "custom.css"
             ],

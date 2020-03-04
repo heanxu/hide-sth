@@ -1,5 +1,6 @@
 .QuestionHeader-title {
-    display: none !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
 }
 
 .Question-sideColumn {
@@ -11,5 +12,13 @@ title {
 }
 
 .GlobalSideBar {
+    display: none !important;
+}
+
+.LoadingBar {
+    display: none !important;
+}
+
+#Rightbar {
     display: none !important;
 }
