@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "DONOTSHOWTITLE",
-    "description": "一个隐藏知乎问题标题的插件",
+    "description": "一个快乐上网的插件",
     "version": "1.0.0",
     "permissions": [
         "https://secure.flickr.com/"
