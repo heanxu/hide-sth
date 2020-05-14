@@ -22,3 +22,7 @@ title {
 #Rightbar {
     display: none !important;
 }
+
+#sidebar {
+    display: none !important;
+}
